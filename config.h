@@ -98,25 +98,28 @@ float alpha = 0.90;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */ 
-	"black",   /* hard contrast: #1d2021 / soft contrast: #32302f [0] = "#1d2021" */ 
-	"red3",    /* red     */ 
-	"green3",  /* green   */ 
-	"yellow3", /* yellow  */ 
-	"#1e90ff",   /* blue    */ 
-	"magenta3",  /* magenta */ 
-	"cyan3", /* cyan    */ 
-	"gray90", /* white   */
+	/* 8 normal colors */
+	"#313539", /* black   */
+	"#b02626", /* red     */
+	"#40a62f", /* green   */
+	"#f2e635", /* yellow  */
+	"#314ad0", /* blue    */
+	"#b30ad0", /* magenta */
+	"#32d0fc", /* cyan    */
+	"#acadb1", /* white   */
+
 	/* 8 bright colors */
-	"gray50", /*[8]  = "#928374", /* black   */
-	"red",    /* red     */
-	"green",  /* green   */
-	"yellow", /* yellow  */
-	"#0080ff",/* blue    */
-	"magenta",/* magenta */
-	"cyan",   /* cyan    */
-	"white",  /* white   */
+	"#676f78", /* black   */
+	"#b55454", /* red     */
+	"#78a670", /* green   */
+	"#faf380", /* yellow  */
+	"#707fd0", /* blue    */
+	"#c583d0", /* magenta */
+	"#8adaf1", /* cyan    */
+	"#e0e3e7", /* white   */
+
 	[255] = 0,
+
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cc241d", /*256 cursor*/
 	"#555555", /*257 rev cursor*/
