@@ -99,47 +99,25 @@ float alpha = 0.90;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-
-// Nord Color Scheme
 	/* 8 normal colors */
-	"#3b4252", /* black   */
-	"#bf616a", /* red     */
-	"#a3be8c", /* green   */
-	"#ebcb8b", /* yellow  */
-	"#81a1c1", /* blue    */
-	"#b48ead", /* magenta */
-	"#88c0d0", /* cyan    */
-	"#e5e9f0", /* white   */
+	"#313539", /* black   */
+	"#b02626", /* red     */
+	"#40a62f", /* green   */
+	"#f2e635", /* yellow  */
+	"#314ad0", /* blue    */
+	"#b30ad0", /* magenta */
+	"#32d0fc", /* cyan    */
+	"#acadb1", /* white   */
 
 	/* 8 bright colors */
-	"#4c566a", /* black   */
-	"#bf616a", /* red     */
-	"#a3be8c", /* green   */
-	"#ebcb8b", /* yellow  */
-	"#81a1c1", /* blue    */
-	"#b48ead", /* magenta */
-	"#8fbcbb", /* cyan    */
-	"#eceff4", /* white   */
-
-	/* 8 normal colors */
-//	"#313539", /* black   */
-//	"#b02626", /* red     */
-//	"#40a62f", /* green   */
-//	"#f2e635", /* yellow  */
-//	"#314ad0", /* blue    */
-//	"#b30ad0", /* magenta */
-//	"#32d0fc", /* cyan    */
-//	"#acadb1", /* white   */
-
-	/* 8 bright colors */
-//	"#676f78", /* black   */
-//	"#b55454", /* red     */
-//	"#78a670", /* green   */
-//	"#faf380", /* yellow  */
-//	"#707fd0", /* blue    */
-//	"#c583d0", /* magenta */
-//	"#8adaf1", /* cyan    */
-//	"#e0e3e7", /* white   */
+	"#676f78", /* black   */
+	"#b55454", /* red     */
+	"#78a670", /* green   */
+	"#faf380", /* yellow  */
+	"#707fd0", /* blue    */
+	"#c583d0", /* magenta */
+	"#8adaf1", /* cyan    */
+	"#e0e3e7", /* white   */
 
 	[255] = 0,
 
