@@ -100,44 +100,44 @@ float alpha = 0.90;
 static const char *colorname[] = {
 
 	/* 8 normal colors */
-	"#313539", /* black   */
-	"#bf616a", /* red     */
-	"#a3be8c", /* green   */
-	"#ebcb8b", /* yellow  */
-	"#81a1c1", /* blue    */
-	"#b48ead", /* magenta */
-	"#88c0d0", /* cyan    */
-	"#e5e9f0", /* white   */
+//	"#313539", /* black   */
+//	"#bf616a", /* red     */
+//	"#a3be8c", /* green   */
+//	"#ebcb8b", /* yellow  */
+//	"#81a1c1", /* blue    */
+//	"#b48ead", /* magenta */
+//	"#88c0d0", /* cyan    */
+//	"#e5e9f0", /* white   */
 
 	/* 8 bright colors */
-	"#676f78", /* black   */
-	"#bf616a", /* red     */
-	"#a3be8c", /* green   */
-	"#ebcb8b", /* yellow  */
-	"#81a1c1", /* blue    */
-	"#b48ead", /* magenta */
-	"#8fbcbb", /* cyan    */
-	"#eceff4", /* white   */
+//	"#676f78", /* black   */
+//	"#bf616a", /* red     */
+//	"#a3be8c", /* green   */
+//	"#ebcb8b", /* yellow  */
+//	"#81a1c1", /* blue    */
+//	"#b48ead", /* magenta */
+//	"#8fbcbb", /* cyan    */
+//	"#eceff4", /* white   */
 
 	/* 8 normal colors */
-//	"#1d3b53",/* black   */
-//	"#fc514e",/* red     */
-//	"#a1cd5e",/* green   */
-//	"#e3d18a",/* yellow  */
-//	"#82aaff",/* blue    */
-//	"#c792ea",/* magenta */
-//	"#7fdbca",/* cyan    */
-//	"#a1aab8",/* white   */
+	"#1d3b53",/* black   */
+	"#fc514e",/* red     */
+	"#a1cd5e",/* green   */
+	"#e3d18a",/* yellow  */
+	"#82aaff",/* blue    */
+	"#c792ea",/* magenta */
+	"#7fdbca",/* cyan    */
+	"#e5e9f0", /* white  */
 
 	/* 8 bright colors */
-//	"#7c8f8f",/* black */
-//	"#ff5874",/* red   */
-//	"#21c7a8",/* green */
-//	"#ecc48d",/* yellow*/
-//	"#82aaff",/* blue  */
-//	"#ae81ff",/*magenta*/
-//	"#7fdbca",/* cyan  */
-//	"#d6deeb",/* white */
+	"#7c8f8f",/* black */
+	"#ff5874",/* red   */
+	"#21c7a8",/* green */
+	"#ecc48d",/* yellow*/
+	"#82aaff",/* blue  */
+	"#ae81ff",/*magenta*/
+	"#7fdbca",/* cyan  */
+	"#eceff4", /* white*/
 
 	[255] = 0,
 
