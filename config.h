@@ -5,7 +5,7 @@ char *externalpipe_sigusr1[] = {"/bin/sh", "-c", "externalpipe_buffer.sh st_stri
  * appearance
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono Nerd Font:pixelsize=16:antialias=true:autohint=true";
+static char *font = "JetBrains Mono Nerd Font:pixelsize=20:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -124,9 +124,9 @@ static const char *colorname[] = {
 	"#fc514e",/* red     */
 	"#a1cd5e",/* green   */
 	"#e3d18a",/* yellow  */
-	"#82aaff",/* blue    */
+	"#81a1c1",/* blue    */
 	"#c792ea",/* magenta */
-	"#7fdbca",/* cyan    */
+	"#88c0d0",/* cyan    */
 	"#e5e9f0", /* white  */
 
 	/* 8 bright colors */
@@ -136,7 +136,7 @@ static const char *colorname[] = {
 	"#ecc48d",/* yellow*/
 	"#82aaff",/* blue  */
 	"#ae81ff",/*magenta*/
-	"#7fdbca",/* cyan  */
+	"#8fbcbb",/* cyan  */
 	"#eceff4", /* white*/
 
 	[255] = 0,
