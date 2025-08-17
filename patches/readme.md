@@ -1,3 +1,3 @@
-# The paches thta are in use at the moment
+# The paches that are in use at the moment
 * Alpha
 * Scrollback-ringbuffer
