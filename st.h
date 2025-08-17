@@ -19,6 +19,7 @@
 
 #define TRUECOLOR(r,g,b)	(1 << 24 | (r) << 16 | (g) << 8 | (b))
 #define IS_TRUECOL(x)		(1 << 24 & (x))
+#define HISTSIZE            2000
 
 enum glyph_attribute {
 	ATTR_NULL       = 0,
@@ -81,22 +82,17 @@ void die(const char *, ...);
 void redraw(void);
 void draw(void);
 
-void externalpipe(const Arg *);
-void kscrolldown(const Arg *);
-void kscrollup(const Arg *);
 void printscreen(const Arg *);
 void printsel(const Arg *);
 void sendbreak(const Arg *);
 void toggleprinter(const Arg *);
-void copyurl(const Arg *);
 
 int tattrset(int);
-int tisaltscr(void);
 void tnew(int, int);
 void tresize(int, int);
 void tsetdirtattr(int);
 void ttyhangup(void);
-int ttynew(char *, char *, char *, char **);
+int ttynew(const char *, char *, const char *, char **);
 size_t ttyread(void);
 void ttyresize(int, int);
 void ttywrite(const char *, size_t, int);
@@ -114,10 +110,9 @@ size_t utf8encode(Rune, char *);
 
 void *xmalloc(size_t);
 void *xrealloc(void *, size_t);
-char *xstrdup(char *);
+char *xstrdup(const char *);
 
 /* config.h globals */
-extern char *externalpipe_sigusr1[];
 extern char *utmp;
 extern char *scroll;
 extern char *stty_args;
@@ -129,4 +124,4 @@ extern char *termname;
 extern unsigned int tabspaces;
 extern unsigned int defaultfg;
 extern unsigned int defaultbg;
-extern float alpha;
+extern unsigned int defaultcs;

@@ -1,3 +1,34 @@
-This is my personal build of st.
+st - simple terminal
+--------------------
+st is a simple terminal emulator for X which sucks less.
 
-It changes from time to time, so if you want to fork it, go ahead, but pulling down updates will probably mess up what you have.
+
+Requirements
+------------
+In order to build st you need the Xlib header files.
+
+
+Installation
+------------
+Edit config.mk to match your local setup (st is installed into
+the /usr/local namespace by default).
+
+Afterwards enter the following command to build and install st (if
+necessary as root):
+
+    make clean install
+
+
+Running st
+----------
+If you did not install st with make clean install, you must compile
+the st terminfo entry with the following command:
+
+    tic -sx st.info
+
+See the man page for additional details.
+
+Credits
+-------
+Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
+
