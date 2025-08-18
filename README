@@ -1,4 +1,8 @@
-st - simple terminal
+st - simple terminal by Duarte Pinto - ver 0.92
+Paches in use :
+- Alpha
+- SCrollBack-Ringbuffer
+
 --------------------
 st is a simple terminal emulator for X which sucks less.
 
