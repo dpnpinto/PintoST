@@ -120,24 +120,24 @@ static const char *colorname[] = {
 //	"#eceff4", /* white   */
 
 	/* 8 normal colors */
-	"#1d3b53",/* black   */
-	"#fc514e",/* red     */
-	"#a1cd5e",/* green   */
-	"#e3d18a",/* yellow  */
-	"#81a1c1",/* blue    */
-	"#c792ea",/* magenta */
-	"#88c0d0",/* cyan    */
-	"#e5e9f0", /* white  */
+	"#282828",/* black   */
+	"#cc241d",/* red     */
+	"#98971a",/* green   */
+	"#d79921",/* yellow  */
+	"#458588",/* blue    */
+	"#b16286",/* magenta */
+	"#689d6a",/* cyan    */
+	"#a89984", /* white  */
 
 	/* 8 bright colors */
-	"#7c8f8f",/* black */
-	"#ff5874",/* red   */
-	"#21c7a8",/* green */
-	"#ecc48d",/* yellow*/
-	"#82aaff",/* blue  */
-	"#ae81ff",/*magenta*/
-	"#8fbcbb",/* cyan  */
-	"#eceff4", /* white*/
+	"#928374",/* black */
+	"#fb4934",/* red   */
+	"#b8bb26",/* green */
+	"#fabb2f",/* yellow*/
+	"#83a598",/* blue  */
+	"#d3869b",/*magenta*/
+	"#8ec07c",/* cyan  */
+	"#ebdbb2", /* white*/
 
 	[255] = 0,
 
