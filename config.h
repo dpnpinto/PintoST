@@ -98,46 +98,49 @@ float alpha = 0.90;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-/* personal tast of the colors */
-	/* 8 normal colors */
-	"#313539", /* black   */
-	"#bf616a", /* red     */
-	"#a3be8c", /* green   */
-	"#ebcb8b", /* yellow  */
-	"#81a1c1", /* blue    */
-	"#b48ead", /* magenta */
-	"#88c0d0", /* cyan    */
-	"#e5e9f0", /* white   */
 
-	/* 8 bright colors */
-	"#676f78", /* black   */
-	"#bf616a", /* red     */
-	"#a3be8c", /* green   */
-	"#ebcb8b", /* yellow  */
-	"#81a1c1", /* blue    */
-	"#b48ead", /* magenta */
-	"#8fbcbb", /* cyan    */
-	"#eceff4", /* white   */
+/* personal taste of the colors 
+	// 8 normal colors
+	"#313539", // black   
+	"#bf616a", // red     
+	"#a3be8c", // green   
+	"#ebcb8b", // yellow  
+	"#81a1c1", // blue    
+	"#b48ead", // magenta 
+	"#88c0d0", // cyan    
+	"#e5e9f0", // white   
+
+	// 8 bright colors 
+	"#676f78", // black   
+	"#bf616a", // red     
+	"#a3be8c", // green   
+	"#ebcb8b", // yellow  
+	"#81a1c1", // blue    
+	"#b48ead", // magenta 
+	"#8fbcbb", // cyan    
+	"#eceff4", // white   
+*/
+
 /* more like retrobox */
-	/* 8 normal colors */
-//	"#282828",/* black   */
-//	"#cc241d",/* red     */
-//	"#98971a",/* green   */
-//	"#d79921",/* yellow  */
-//	"#458588",/* blue    */
-//	"#b16286",/* magenta */
-//	"#689d6a",/* cyan    */
-//	"#a89984", /* white  */
+	// 8 normal colors 
+	"#282828",// black   
+	"#cc241d",// red     
+	"#98971a",// green
+	"#d79921",// yellow
+	"#458588",// blue
+	"#b16286",// magenta
+	"#689d6a",// cyan
+	"#a89984",// white
 
-	/* 8 bright colors */
-//	"#928374",/* black */
-//	"#fb4934",/* red   */
-//	"#b8bb26",/* green */
-//	"#fabb2f",/* yellow*/
-//	"#83a598",/* blue  */
-//	"#d3869b",/*magenta*/
-//	"#8ec07c",/* cyan  */
-//	"#ebdbb2", /* white*/
+	// 8 bright colors
+	"#928374",// black
+	"#fb4934",// red
+	"#b8bb26",// green
+	"#fabb2f",// yellow
+	"#83a598",// blue
+	"#d3869b",// magenta
+	"#8ec07c",// cyan
+	"#ebdbb2",// white
 
 	[255] = 0,
 
