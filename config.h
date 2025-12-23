@@ -121,7 +121,7 @@ static const char *colorname[] = {
 	"#eceff4", // white   
 */
 
-/* more like retrobox */
+/* more like retrobox 
 	// 8 normal colors 
 	"#282828",// black   
 	"#cc241d",// red     
@@ -144,13 +144,43 @@ static const char *colorname[] = {
 
 	[255] = 0,
 
+	 more colors can be added after 255 to use with DefaultXX
+	"#cc241d", //256 cursor
+	"#555555", //257 rev cursor
+	"#000000", //258 bg
+	"#ffffff", //259 fg
+}; */
+
+
+/* more like Tokyo Night */
+	// 8 normal colors 
+	"#1b1d2b",// black   
+	"#f7768e",// red     
+	"#9ece6a",// green
+	"#e0af68",// yellow
+	"#7aa2f7",// blue
+	"#bb9af7",// magenta
+	"#7dcfff",// cyan
+	"#a9b1d6",// white
+
+	// 8 bright colors
+	"#414868",// black
+	"#f7768e",// red
+	"#9ece6a",// green
+	"#e0af68",// yellow
+	"#7aa2f7",// blue
+	"#bb9af7",// magenta
+	"#7dcfff",// cyan
+	"#c0caf5",// white
+
+	[255] = 0,
+
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cc241d", /*256 cursor*/
 	"#555555", /*257 rev cursor*/
 	"#000000", /*258 bg*/
 	"#ffffff", /*259 fg*/
 };
-
 /*
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
